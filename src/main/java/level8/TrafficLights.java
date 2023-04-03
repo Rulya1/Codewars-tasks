@@ -10,7 +10,7 @@ public class TrafficLights {
             case "red":
                 return "green";
             default:
-                throw new IllegalArgumentException("Invalid traffic light state: " + current);
+               return "error";
         }
     }
 
