@@ -6,13 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WhoWinGameTest {
     @Test
-    void WhoWinGame(){
+    void Player1WinGame(){
         String res1 = WhoWinGame.rps("rock" , "scissors" );
         assertEquals("Player 1 won!" , res1);
     }
     @Test
-    void WhoWinGameFail(){
-        String res2 = WhoWinGame.rps("rock" , "scissors");
-        assertEquals(false, res2 );
+    void Player2WinGameFail(){
+        String res2 = WhoWinGame.rps("scissors", "rock");
+        assertEquals("Player 2 won!", res2 );
     }
 }
