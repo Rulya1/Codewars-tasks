@@ -11,7 +11,7 @@ public class WhoWinGameTest {
         assertEquals("Player 1 won!" , res1);
     }
     @Test
-    void Player2WinGameFail(){
+    void Player2WinGame(){
         String res2 = WhoWinGame.rps("scissors", "rock");
         assertEquals("Player 2 won!", res2 );
     }
