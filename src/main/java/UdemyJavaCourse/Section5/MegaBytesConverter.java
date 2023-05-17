@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section5;
 
 public class MegaBytesConverter {
     public static void printMegaBytesAndKiloBytes(int kiloBytes){

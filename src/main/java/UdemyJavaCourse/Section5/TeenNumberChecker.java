@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section5;
 
 public class TeenNumberChecker {
     public static boolean hasTeen(int t1, int t2, int t3) {

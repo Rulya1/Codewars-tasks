@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section5;
 
 public class PositiveNegativeZero {
     public static void main(String[] args) {

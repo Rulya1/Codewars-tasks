@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section5;
 
 public class BarkingDog {
     public static boolean shouldWakeUp(boolean barking ,int hoursOfDay ) {

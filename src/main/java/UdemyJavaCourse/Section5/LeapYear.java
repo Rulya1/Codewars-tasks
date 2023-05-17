@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section5;
 
 public class LeapYear {
     public static boolean isLeapYear(int year){

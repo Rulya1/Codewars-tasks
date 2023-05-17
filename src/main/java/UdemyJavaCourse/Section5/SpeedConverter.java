@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section5;
 
 public class SpeedConverter {
     public static long toMilesPerHour(double kilometersPerHour)  {

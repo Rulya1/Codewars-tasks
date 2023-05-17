@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section4;
 
 public class VariablesAndExpressions {
     public static void main(String[] args) {

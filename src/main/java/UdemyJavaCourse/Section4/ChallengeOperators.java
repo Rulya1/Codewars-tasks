@@ -1,4 +1,4 @@
-package UdemyJavaCourse;
+package UdemyJavaCourse.Section4;
 
 public class ChallengeOperators {
     public static void main(String[] args) {
