@@ -1,6 +1,7 @@
 package UdemyJavaCourse.Section10.ListIteratorAutoBoxing;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class MobilePhone {
     private String myNumber;
@@ -84,5 +85,18 @@ public class MobilePhone {
      }
      public static Contact createContact(String name, String phoneNumber){
          return new Contact(name , phoneNumber);
+     }
+
+     @Override
+     public boolean equals(Object o) {
+         if (this == o) return true;
+         if (o == null || getClass() != o.getClass()) return false;
+         Contact contact = (Contact) o;
+         return name.equals(contact.name) && phoneNumber.equals(contact.phoneNumber);
+     }
+
+     @Override
+     public int hashCode() {
+         return Objects.hash(name, phoneNumber);
      }
  }
